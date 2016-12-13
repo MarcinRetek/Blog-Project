@@ -1,0 +1,314 @@
+
+
+h3{
+	font-size: 3em;
+}
+
+body{
+	font-family: "Open Sans", Sans-serif;
+	background-image: url('../images/rockywall.png');
+	
+}
+
+h1, h3{
+	font-size:3em;
+	color: #DB5EBF;
+	font-family: "Fredoka One";
+}
+
+.bold {
+	font-weight: 700;
+}
+
+a:hover {text-decoration: none;}
+
+#title a {color: #DB5EBF;}
+#title a:hover {color: #B04C99;}
+
+.article p{
+	color:black;
+}
+
+
+#title {
+	margin-top: 0.5em;
+}
+
+.alert {
+	display: none;
+	clear:both;
+}
+
+.navbar .container-fluid {
+	background-color:#5079b4;
+	color:white;
+}
+
+.navbar .container-fluid .container ul li a{
+	color:white;
+	font-weight: 700;
+}
+
+.navbar .container-fluid .container ul li a:hover{
+	color:white;
+	font-weight: 700;
+	background-color:#38567f;
+}
+
+.jumbotron .container h1:hover {
+	text-decoration: none;
+	color:#DB5EBF;
+	
+}
+
+.jumbotron .container h1 {
+	font-size: 5em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	transition: color 0.4s ease-in-out;
+}
+
+.jumbotron .container h3 {
+	font-size: 2em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #DB5EBF;
+	text-align: right;
+	font-weight: 700;
+}
+
+#specialFeature{
+	margin-top:1em;
+}
+
+.article {
+	background: transparent;
+	margin-top: 2em;
+}
+
+#smallOne .article {
+	margin-top: 1.5em;
+}
+
+.jumbotron {
+	height: 400px;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	margin-bottom:0px;
+}
+
+#specialFeature{
+	background-image: url("../images/11-big.jpg");
+}
+
+#carouselJumbo0 {
+	background-image: url("../images/0-big.jpg");
+}
+
+#carouselJumbo1 {
+	background-image: url("../images/1-big.jpg");
+}
+
+#carouselJumbo2 {
+	background-image: url("../images/2-big.jpg");
+}
+
+#mainJumbo {
+	margin-bottom:1em;
+}
+
+.articleBody p{
+	margin-bottom: 1em;
+}
+
+.articleTitle {
+	font-size: 1.5em;
+	color: #DB5EBF;
+	font-family: "Fredoka One";
+}
+
+.articleAuthor h4 {
+	font-family:"Fredoka One";
+	font-size: 2em;
+	color: #38567f;
+	margin-bottom:0.5em;
+}
+
+#bigOne .article img{
+	height: 14em;
+	float: left;
+	margin-right: 1em;
+}
+
+#smallOne .article img {
+	height: 6.5em;
+	float: left;
+	margin-right: 1em;
+}
+
+.list .article img {
+	height: 8em;
+	float: left;
+	margin-right: 1em;
+}
+
+.list .article h2 {
+	font-size: 2em;
+	font-family: "Fredoka One";
+}
+
+#bottomOne .article img{
+	width: 100%;
+}
+
+.article h2{
+	font-size: 1.5em;
+}
+
+.article p {
+	text-align: justify;
+	margin-top: 1em;
+}
+
+#bigOne .article h2 {
+	margin-top:0px;
+	font-size: 2.5em;
+	font-family: "Fredoka One";
+} 
+
+#bottomOne .article h2 {
+	font-size: 2.5em;
+	font-family: "Fredoka One";
+} 
+
+#smallOne .article h2 {
+	font-family: "Fredoka One";
+	font-weight: 700;
+}
+
+.clear {
+	clear: both;
+}
+
+.comments-list{
+	width: 100%;
+}
+.comment-entry{
+	width: 100%;
+	margin-top: 2em;
+	background-color: transparent;
+	font-size: 120%;
+    color: #5079B4;
+}
+
+.content-text{
+	width: 100%;
+	padding: 1em;
+}
+
+.content-author{
+	padding: 0.5em;
+	border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: black;
+}
+
+textarea{
+	width: 100%;
+	height: 7em;
+}
+
+button{
+	float: right;
+	margin-bottom: 1em;
+}
+
+#newArticleForm{
+	margin-top:1em;
+	margin-bottom: 2em;
+}
+
+.formTitle{
+	margin-top: 1em;
+	font-family: "Fredoka One";
+	font-size: 1.5em;
+	color: #5079b4;
+}
+
+#footer{
+	background-color: #515151;
+	text-align: center;
+	position: relative;
+	padding: 4em;
+	margin-top: 10em;
+	color: black;
+}
+
+
+.login{
+    padding: 2em;
+    width: 20em;
+    min-height: 20em;
+    margin: auto;
+    background-color: transparent;
+}
+
+.heading{
+	text-align: center;
+    margin-top: 0.5em;
+}
+
+.head{
+	font-size: 3em;
+ 	font-weight: 300;
+    color: gray;
+    display: inline-block;
+    padding-bottom: 15px;
+    font-family: "Fredoka One";
+}
+
+#form{
+	padding: 5px;
+    font-size: 1.6em;
+    width: 100%;
+    background: transparent;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+	
+}
+
+#form:focus{
+	outline: none;
+}
+
+#loginbutton{
+	margin-top: 20px;
+    background-color: #DB5EBF;
+    border: none;
+    font-size: 1.6em;
+    font-weight: 300;
+    padding: 5px 0;
+    width: 100%;
+    border-radius: 3px;
+    color: pink;
+    border-bottom: 4px solid darkgray;
+    font-family: "Fredoka One";
+}
+
+#loginbutton:hover{
+	background-color: #B04C99;
+}
+
+.push{
+	height: 30em;
+}
+
+
+@media screen and (max-width: 768px) {
+	.jumbotron .container h1 {
+		font-size: 3em;
+	}
+	#bigOne img{
+		width:100%;
+	}
+}
